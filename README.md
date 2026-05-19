@@ -1,6 +1,8 @@
-# Visual AI
+# qlens
 
-Local desktop app for **visual grounding**, **multi-object detection**, **counting**, and **video frame-by-frame analysis** on any region of your screen, powered by **Qwen2.5-VL:7B** running locally through **Ollama**.
+> Local desktop app for visual grounding, multi-object detection, counting, and video frame-by-frame analysis on any region of your screen.
+
+Powered by **Qwen2.5-VL:7B** running locally through **Ollama**. 100% offline, no cloud calls, no telemetry.
 
 Select an area of your screen like in Snipping Tool, type a question, and the app draws the answer directly on top of your screen.
 
@@ -91,8 +93,8 @@ ollama pull qwen2.5:7b
 ## Installation
 
 ```powershell
-git clone https://github.com/<your-username>/visual-ai.git
-cd visual-ai
+git clone https://github.com/tomaszwi66/qlens.git
+cd qlens
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -199,7 +201,7 @@ DPI scaling on Windows is handled by:
 ## Project layout
 
 ```
-visual-ai/
+qlens/
   main.py                    # entry point, DPI awareness, hotkey, QApplication
   config.py                  # Ollama URL, model names, defaults
   requirements.txt

@@ -117,7 +117,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Visual AI")
+        self.setWindowTitle("qlens")
         self._overlay = Overlay()
         self._selector: Optional[RegionSelector] = None
         self._thread: Optional[QThread] = None

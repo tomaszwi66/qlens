@@ -41,7 +41,7 @@ def _install_global_hotkey(window: MainWindow) -> None:
 
 def main() -> int:
     app = QApplication(sys.argv)
-    app.setApplicationName("Visual AI")
+    app.setApplicationName("qlens")
     window = MainWindow()
     window.show()
     _install_global_hotkey(window)
