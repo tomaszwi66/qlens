@@ -1,5 +1,7 @@
 # qlens
 
+![Object localization - capybara detected with green bounding box](qlens.png)
+
 > Local desktop app for visual grounding, multi-object detection, counting, and video frame-by-frame analysis on any region of your screen.
 
 Powered by **Qwen2.5-VL:7B** running locally through **Ollama**. 100% offline, no cloud calls, no telemetry.
